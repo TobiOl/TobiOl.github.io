@@ -1,0 +1,86 @@
+p{font-size: 1.2em}
+
+body{
+    background-color: lightblue;
+    color: navajowhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color: #ff0000;
+}
+
+.box-1
+{
+    background-color: rebeccapurple;
+    border-style:ridge;
+    padding: 20px;
+    margin: 10px;
+    border-top: 5px red solid;
+    border-bottom: 5px blueviolet dashed;
+    border-left: 5px greenyellow solid;
+    border-right: 8px red dot-dash;
+
+}
+.myform{
+    background-color: grey;
+    color: blanchedalmond;
+    padding: 50px;
+    margin: 10px;
+}
+
+.myform input[type="text"]{
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#input-button{
+    padding: 8px;
+    border: none;
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+.box-1 h4{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1cm;
+
+
+}
+
+.box-2
+{
+    background-color: purple;
+    border: 5px rebeccapurple solid;
+    padding: 20px;
+    margin:10px;
+}
+.page-container{
+    width: 80%;
+    margin: auto;
+}
+table, th, td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    margin:10px;
+    background-color: navajowhite;
+    color: black;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript demo</title>
+    <style>
+        .highlight{
+            color: red;
+            background-color: yellow;
+        }
+        .normal{
+            color: black;
+            background-color: lavender;
+        }
+    </style>
+</head>
+<body>
+<h1 id = "greeting" class="normal"
+onmouseover="ChangeStyle(this, 'normal', 'highlight')"
+onmouseout="ChangeStyle(this, 'highlight', 'normal')">Javascript demo</h1>
+
+<button onclick='document.getElementById("greeting").innerHTML = "Good morning"'>Press me</button>
+<p id="objectDemo"></p>
+
+<script src="demo.js">
+</script>
+<script>
+    class Person{
+        constructor(fName, lName, age) {
+            this.firstname = fName;
+            this.lastName = lName;
+            this.age = age;
+        }
+        getFullName(){
+            return this.firstname + " " + this.lastName;
+        }
+    }
+    var tobi = new Person("Tobi", "Olaniyi", 22);
+    document.getElementById("objectDemo").innerHTML = tobi.getFullName() + " " + tobi.age;
+</script>
+</body>
+</html>
